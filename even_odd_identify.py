@@ -30,10 +30,11 @@ def main():
         step_num += 1
         # condition for even
         if (num % 2) == 0: 
-            print ('step number:' , step_num , ':' , num , "is an even number")
+            print (f'step number {step_num} : {num} is an even number')
         # condition for odd
         else:
-            print ('step number:' , step_num , ':' , num , "is an odd number")
+            print (f'step number {step_num} : {num} is an odd number')
 
 # call main function
-main()
+if __name__ == "__main__":
+    main()
